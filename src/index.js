@@ -1,4 +1,7 @@
-import { answer } from "./answers"
+let answer = [
+    `print("Hello world")`, 
+    `print("hello world")`
+]
 
 function resp(){
 
