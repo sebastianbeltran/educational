@@ -1,3 +1,5 @@
+import { answer } from "./answers"
+
 function resp(){
 
     let res = document.getElementById("respuesta").value
