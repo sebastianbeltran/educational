@@ -13,10 +13,13 @@
     <div class="container-fluid jumbotron">
         <div class="row">
             <div class="col-md-6">
-                <p class="lead">Use a print() function with the text "Hello world"</p>
-                <textarea id="respuesta" spellcheck="false" class="form-control"></textarea>
-                <button onclick="resp()" class="btn btn-success btn-lg">RUN</button>
-                <h1 id="result"></h1>
+                <p class="lead">1. Use a print() function with the text "Hello world"</p>
+                <textarea id="respuesta1" spellcheck="false" class="form-control"></textarea>
+                <div class="row botones">
+                    <button onclick="resp1()" class="btn btn-success btn-lg">RUN</button>
+                    <button class="btn btn-primary btn-lg" style="display: none;" id="help1">Do it for me</button>
+                </div>
+                <p id="explanation1" style="display: none;">Congratulations, now you know how to create a message using the function print()</p>
             </div>
             <div class="col-md-5 offset-md-1">
                 <h1>Output</h1>
@@ -26,22 +29,63 @@
         </div>
     </div>
 
+
     <div class="container-fluid jumbotron">
         <div class="row">
             <div class="col-md-6">
-                <p class="lead">Use a print() function with the text "Hello world"</p>
-                <textarea id="respuesta" spellcheck="false" class="form-control"></textarea>
-                <button onclick="resp()" class="btn btn-success btn-lg">RUN</button>
-                <h1 id="result"></h1>
+                <p class="lead">2. Now you need to use the print() function to add Strings of words. <br>Add "Hello world," + "I'm a programmer"</p>
+                <textarea id="respuesta2" spellcheck="false" class="form-control"></textarea>
+                <div class="row botones">
+                    <button onclick="resp2()" class="btn btn-success btn-lg">RUN</button>
+                    <button class="btn btn-primary btn-lg" style="display: none;" id="help2">Do it for me</button>
+                </div>
+                <p id="explanation2" style="display: none;">Congratulations, now you know how to add <strong>Strings</strong>. Remeber that Strings are any type of information inside quotation marks (""), including blanks or numbers. So if you want to leave a space between "worldI'm", you must leave a space in the first String. Example: "Hello world "  </p>
             </div>
             <div class="col-md-5 offset-md-1">
                 <h1>Output</h1>
-                <p id="error1" class="lead" style="display: none;">Oh Oh! It looks like there is something wrong</p>
-                <img id="ans1" src="img/1.PNG" class="img-fluid rounded" style="display: none;">
+                <p id="error2" class="lead" style="display: none;">Oh Oh! It looks like there is something wrong</p>
+                <img id="ans2" src="img/2.PNG" class="img-fluid rounded" style="display: none;">
             </div>
         </div>
     </div>
-    
+
+    <div class="container-fluid jumbotron">
+        <div class="row">
+            <div class="col-md-6">
+                <p class="lead">3. Now, try to add a String with a number. <br>Add "Hello world, " + "I'm " + 13 + " years old"</p>
+                <textarea id="respuesta3" spellcheck="false" class="form-control"></textarea>
+                <div class="row botones">
+                    <button onclick="resp3()" class="btn btn-success btn-lg">RUN</button>
+                    <button class="btn btn-primary btn-lg" style="display: none;" id="help3">Do it for me</button>
+                </div>
+                <p id="explanation3" style="display: none;"> Ups, here you have your first error. Remember that you <strong>can't add different types of values</strong>. In this case you are trying to add a String with a number. So, first you must convert the number with the function <strong>str()</strong>. Example: str(13)</p>
+            </div>
+            <div class="col-md-5 offset-md-1">
+                <h1>Output</h1>
+                <p id="error3" class="lead" style="display: none;">Oh Oh! It looks like there is something wrong</p>
+                <img id="ans3" src="img/3.PNG" class="img-fluid rounded" style="display: none;">
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid jumbotron">
+        <div class="row">
+            <div class="col-md-6">
+                <p class="lead">4. Try it again</p>
+                <textarea id="respuesta4" spellcheck="false" class="form-control"></textarea>
+                <div class="row botones">
+                    <button onclick="resp4()" class="btn btn-success btn-lg">RUN</button>
+                    <button class="btn btn-primary btn-lg" style="display: none;" id="help4">Do it for me</button>
+                </div>
+                <p id="explanation4" style="display: none;">Perfect! Always you must analyze what type of values you are using. Remember we have three types of values: <br>String ----- "Hello everyone!!" <br>Integer ----- 14<br>Float ----- 3.14</p>
+            </div>
+            <div class="col-md-5 offset-md-1">
+                <h1>Output</h1>
+                <p id="error4" class="lead" style="display: none;">Oh Oh! It looks like there is something wrong</p>
+                <img id="ans4" src="img/4.PNG" class="img-fluid rounded" style="display: none;">
+            </div>
+        </div>
+    </div>
 
 
 
