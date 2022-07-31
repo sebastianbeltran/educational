@@ -19,3 +19,9 @@ button{
 .botones{
     margin-left: 0;
 }
+.if{
+    height: 200px !important;
+}
+.if-img{
+    margin-bottom: 30px;
+}

@@ -211,3 +211,235 @@ function resp7(){
     }
  
 }
+
+let count8 = 0
+
+let answer8 = [
+`input("What is your favorite movie?")`,
+`input("what is your favorite movie?")`
+]
+
+function resp8(){
+
+    count8++
+    let res = document.getElementById("respuesta8").value
+
+    if (answer8[0] == res || answer8[1] == res || answer8[2] == res) {
+        document.getElementById("ans8").style.display = "block"
+        document.getElementById("explanation8").style.display = "block"
+        document.getElementById("error8").style.display = "none"
+    }else{
+        document.getElementById("error8").style.display = "block"
+        document.getElementById("ans8").style.display = "none"
+    }
+    if(count8 == 3){
+        document.getElementById("help8").style.display = "block"
+    }
+    document.getElementById("help8").onclick = function(){
+        document.getElementById("respuesta8").value = answer8[0]
+    }
+ 
+}
+
+let count9 = 0
+
+let answer9 = [
+`movie = input("What is your favorite movie?")
+print(movie + " is also my favorite movie")`,
+`movie=input("What is your favorite movie?")
+print(movie+" is also my favorite movie")`,
+`movie=input("What is your favorite movie?")
+print(movie+"is also my favorite movie")`,
+`movie = input("What is your favorite movie?")
+print(movie + "is also my favorite movie")`
+]
+
+function resp9(){
+
+    count9++
+    let res = document.getElementById("respuesta9").value
+
+    if (answer9[0] == res || answer9[1] == res || answer9[2] == res || answer9[3] == res) {
+        document.getElementById("ans9").style.display = "block"
+        document.getElementById("explanation9").style.display = "block"
+        document.getElementById("error9").style.display = "none"
+    }else{
+        document.getElementById("error9").style.display = "block"
+        document.getElementById("ans9").style.display = "none"
+    }
+    if(count9 == 3){
+        document.getElementById("help9").style.display = "block"
+    }
+    document.getElementById("help9").onclick = function(){
+        document.getElementById("respuesta9").value = answer9[0]
+    }
+ 
+}
+
+let count10 = 0
+
+let answer10 = [
+`age = input("How old are you?")
+print(age + " is my favorite number")`,
+`age=input("How old are you?")
+print(age+ " is my favorite number")`,
+`age = input("How old are you?")
+print(age + "is my favorite number")`,
+`age=input("How old are you?")
+print(age+"is my favorite number")`
+]
+
+function resp10(){
+
+    count10++
+    let res = document.getElementById("respuesta10").value
+
+    if (answer10[0] == res || answer10[1] == res || answer10[2] == res || answer10[3] == res) {
+        document.getElementById("ans10").style.display = "block"
+        document.getElementById("explanation10").style.display = "block"
+        document.getElementById("error10").style.display = "none"
+    }else{
+        document.getElementById("error10").style.display = "block"
+        document.getElementById("ans10").style.display = "none"
+    }
+    if(count10 == 3){
+        document.getElementById("help10").style.display = "block"
+    }
+    document.getElementById("help10").onclick = function(){
+        document.getElementById("respuesta10").value = answer10[0]
+    }
+ 
+}
+
+let count11 = 0
+
+let answer11 = [
+`number = input("Give me a number for 1 to 10:")
+print(int(number) + 20)`,
+`number=input("Give me a number for 1 to 10:")
+print(int(number)+20)`,
+`number = int(input("Give me a number for 1 to 10: "))
+print(number + 20)`,
+`number=int(input("Give me a number for 1 to 10: "))
+print(int(number)+20)`
+]
+
+function resp11(){
+
+    count11++
+    let res = document.getElementById("respuesta11").value
+
+    if (answer11[0] == res || answer11[1] == res || answer11[2] == res || answer11[3] == res) {
+        document.getElementById("ans11").style.display = "block"
+        document.getElementById("explanation11").style.display = "block"
+        document.getElementById("error11").style.display = "none"
+    }else{
+        document.getElementById("error11").style.display = "block"
+        document.getElementById("ans11").style.display = "none"
+    }
+    if(count11 == 3){
+        document.getElementById("help11").style.display = "block"
+    }
+    document.getElementById("help11").onclick = function(){
+        document.getElementById("respuesta11").value = answer11[0]
+    }
+ 
+}
+
+let count12 = 0
+
+let answer12 = [
+`password = input("Type your password:")
+if password == "cas123":
+ print("Your password is correct")
+else:
+ print("Your password is wrong")`,
+`password = input("Type your password:")
+
+if password == "cas123":
+ print("Your password is correct")
+else:
+ print("Your password is wrong")`,
+`password = input("Type your password:")
+if password=="cas123":
+ print("Your password is correct")
+else:
+ print("Your password is wrong")`,
+`password = input("Type your password:")
+
+if password=="cas123":
+ print("Your password is correct")
+else:
+ print("Your password is wrong")`
+]
+
+function resp12(){
+
+    count12++
+    let res = document.getElementById("respuesta12").value
+
+    if (answer12[0] == res || answer12[1] == res || answer12[2] == res || answer12[3] == res) {
+        document.getElementById("ans12").style.display = "block"
+        document.getElementById("explanation12").style.display = "block"
+        document.getElementById("error12").style.display = "none"
+    }else{
+        document.getElementById("error12").style.display = "block"
+        document.getElementById("ans12").style.display = "none"
+    }
+    if(count12 == 3){
+        document.getElementById("help12").style.display = "block"
+    }
+    document.getElementById("help12").onclick = function(){
+        document.getElementById("respuesta12").value = answer12[0]
+    }
+ 
+}
+
+let count13 = 0
+
+let answer13 = [
+`age = input("How old are you?")
+
+if int(age) >= 18:
+ print("You can access to the movie")
+else:
+ print("You can not access to the movie")`,
+`age = input("How old are you?")
+if int(age) >= 18:
+ print("You can access to the movie")
+else:
+ print("You can not access to the movie")`,
+`age = int(input("How old are you?"))
+
+if age >= 18:
+ print("You can access to the movie")
+else:
+ print("You can not access to the movie")`,
+`age = int(input("How old are you?"))
+if age >= 18:
+ print("You can access to the movie")
+else:
+ print("You can not access to the movie")`
+]
+
+function resp13(){
+
+    count13++
+    let res = document.getElementById("respuesta13").value
+
+    if (answer13[0] == res || answer13[1] == res || answer13[2] == res || answer13[3] == res) {
+        document.getElementById("ans13").style.display = "block"
+        document.getElementById("explanation13").style.display = "block"
+        document.getElementById("error13").style.display = "none"
+    }else{
+        document.getElementById("error13").style.display = "block"
+        document.getElementById("ans13").style.display = "none"
+    }
+    if(count13 == 3){
+        document.getElementById("help13").style.display = "block"
+    }
+    document.getElementById("help13").onclick = function(){
+        document.getElementById("respuesta13").value = answer13[0]
+    }
+ 
+}

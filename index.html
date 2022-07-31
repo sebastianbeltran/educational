@@ -96,7 +96,7 @@
                     <button onclick="resp5()" class="btn btn-success btn-lg">RUN</button>
                     <button class="btn btn-primary btn-lg" style="display: none;" id="help5">Do it for me</button>
                 </div>
-                <p id="explanation5" style="display: none;">Perfect! Remeber you can store information as words or numbers inside variables to create messages or math operations. For example:<br><br>language = "Python"<br>print(language + "is the programming language that I'm using")<br><br>number = 1<br>print(number + 22)<br><br>But it's important to know that we can only add the same type of values. <strong>Numbers with numbers</strong> and <strong>Strings with Strings.</strong> To add different types of values we need to convert it depending on what we are trying to do. For example:<br><br>age = 18<br>print("I'm " + str(age) + " years old") -----> result: I'm 18 years old<br><br>number = "19" <i>--- number inside quotation marks</i><br>print(int(number) + 45) -----> result: 64<br><br>We have three different functions to convert values:<br>str() to convert numbers to Strings ------> str(18) --- result: "18"<br>int() to convert Strings or floating numbers to integer numbers ------> int("18") --- result: 18<br>float() to convert Strings or integer numbers to floating numbers ------>float("18") --- result: 18.0</p>
+                <p id="explanation5" style="display: none;">Perfect! Remeber you can store information as words or numbers inside variables to create messages or math operations. For example:<br><br>language = "Python"<br>print(language + "is the programming language that I'm using")<br><br>number = 1<br>print(number + 22)<br><br>But it's important to know that we can only add the same type of values. <strong>Numbers with numbers</strong> and <strong>Strings with Strings.</strong> To add different types of values we need to convert it depending on what we are trying to do. For example:<br><br>age = 18<br>print("I'm " + str(age) + " years old") -----> result: I'm 18 years old<br><br>number = "19" <i>--- A number inside quotation marks is considered a String</i><br>print(int(number) + 45) -----> result: 64<br><br>We have three different functions to convert values:<br>str() to convert numbers to Strings ------> str(18) --- result: "18"<br>int() to convert Strings or floating numbers to integer numbers ------> int("18") --- result: 18<br>float() to convert Strings or integer numbers to floating numbers ------>float("18") --- result: 18.0</p>
             </div>
             <div class="col-md-5 offset-md-1">
                 <h1>Output</h1>
@@ -144,7 +144,133 @@
         </div>
     </div>
 
+    <div class="container-fluid jumbotron">
+        <div class="row">
+            <div class="col-md-6">
+                <p class="lead">8. It's time to learn how to ask questions to our users. <br>Using the input() function ask the question "What is your favorite movie?"</p>
+                <textarea id="respuesta8" spellcheck="false" class="form-control"></textarea>
+                <div class="row botones">
+                    <button onclick="resp8()" class="btn btn-success btn-lg">RUN</button>
+                    <button class="btn btn-primary btn-lg" style="display: none;" id="help8">Do it for me</button>
+                </div>
+                <p id="explanation8" style="display: none;">Great! Now you know how to ask questions. But remeber if you want to do something with this answer, you must use a variable to store this information. Otherwise, this response will disappear from our code. </p>
+            </div>
+            <div class="col-md-5 offset-md-1">
+                <h1>Output</h1>
+                <p id="error8" class="lead" style="display: none;">Oh Oh! It looks like there is something wrong</p>
+                <img id="ans8" src="img/8.PNG" class="img-fluid rounded" style="display: none;">
+            </div>
+        </div>
+    </div>
 
+    <div class="container-fluid jumbotron">
+        <div class="row">
+            <div class="col-md-6">
+                <p class="lead">9. Using the input() function ask the question "What is your favorite movie?" and store the answer inside a variable called <strong>movie</strong><br>Imagine the user's answer will be: Avengers End Game<br>Then, use a print() function to create the message movie + " is also my favorite movie"</p>
+                <textarea id="respuesta9" spellcheck="false" class="form-control"></textarea>
+                <div class="row botones">
+                    <button onclick="resp9()" class="btn btn-success btn-lg">RUN</button>
+                    <button class="btn btn-primary btn-lg" style="display: none;" id="help9">Do it for me</button>
+                </div>
+                <p id="explanation9" style="display: none;">Perfect! Now you know how to ask questions and store the answer inside variables.</p>
+            </div>
+            <div class="col-md-5 offset-md-1">
+                <h1>Output</h1>
+                <p id="error9" class="lead" style="display: none;">Oh Oh! It looks like there is something wrong</p>
+                <img id="ans9" src="img/9.PNG" class="img-fluid rounded" style="display: none;">
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid jumbotron">
+        <div class="row">
+            <div class="col-md-6">
+                <p class="lead">10. Using the input() function ask the question "How old are you?" and store the answer inside a variable called <strong>age</strong><br>Imagine the user's answer will be: 12 <br>Then, use a print() function to create the message age + " is my favorite number"</p>
+                <textarea id="respuesta10" spellcheck="false" class="form-control"></textarea>
+                <div class="row botones">
+                    <button onclick="resp10()" class="btn btn-success btn-lg">RUN</button>
+                    <button class="btn btn-primary btn-lg" style="display: none;" id="help10">Do it for me</button>
+                </div>
+                <p id="explanation10" style="display: none;">Wait a sencond here!! Maybe you are wondering why this code is correct? It not suppose that I need to use the str() function to convert the number to a String?<br>Well you are correct. But you must remember that <strong>answer of an input() function will be always considered a String</strong>. So, in this example, no matter if the user type 12, because the program will understand "12". </p>
+            </div>
+            <div class="col-md-5 offset-md-1">
+                <h1>Output</h1>
+                <p id="error10" class="lead" style="display: none;">Oh Oh! It looks like there is something wrong</p>
+                <img id="ans10" src="img/10.PNG" class="img-fluid rounded" style="display: none;">
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid jumbotron">
+        <div class="row">
+            <div class="col-md-6">
+                <p class="lead">11. Using the input() function ask the question "Give me a number form 1 to 10:" and store the answer inside a variable called <strong>number</strong><br>Imagine the user's answer will be: 9 <br>Then, use a print() function to create the message  of the answer of the math operation:<br> number + 20<br><i>Remember to use the int() function to convert the String to a number</i></p>
+                <textarea id="respuesta11" spellcheck="false" class="form-control"></textarea>
+                <div class="row botones">
+                    <button onclick="resp11()" class="btn btn-success btn-lg">RUN</button>
+                    <button class="btn btn-primary btn-lg" style="display: none;" id="help11">Do it for me</button>
+                </div>
+                <p id="explanation11" style="display: none;">Nice! Always remember that if you are asking for a number and you want to do a math operation or compare this number with another, you <strong>must use the int() or float() functions.</strong> </p>
+            </div>
+            <div class="col-md-5 offset-md-1">
+                <h1>Output</h1>
+                <p id="error11" class="lead" style="display: none;">Oh Oh! It looks like there is something wrong</p>
+                <img id="ans11" src="img/11.PNG" class="img-fluid rounded" style="display: none;">
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid jumbotron">
+        <div class="row">
+            <div class="col-md-12">
+                <p>You are prepared to learn how to use <strong>if-else conditional statements.</strong> But first, you must learn the rules that are mandatory for every if-else conditions:</p>
+                <ol>
+                    <li>Your condition always needs to have at least one conditional comparator. Example: greater than (>), less than (<), greater or equal to (>=), less or equal to(<=), equal (==). </li>
+                    <li>You must compare the same type of values: Example: "String" == "String" or number <= number</li>
+                    <li>At the end of every if-else you must use a colon (:)</li>
+                    <li>To set the instructions if the condition is true or if not, you must leave a blank space on each line.</li>
+                </ol>
+                <p>Let's see an example using all the rules:</p>
+                <img src="img/if.PNG" class="img-fluid rounded if-img mx-auto d-block">
+                <hr>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-md-6">
+                <p class="lead">12. Create an if-else condition. <br>Using the input() function ask the question "Type your password:" and store the answer into a variable called <strong>password</strong>.<br>Compare the variable with the string "cas123" and if its equal use the function print() to write the message "your password is correct". If its different write the message "your password is wrong"<br><i>Imagine the user's answer will be: "cas123"</i></p>          
+                <textarea id="respuesta12" spellcheck="false" class="form-control if"></textarea>
+                <div class="row botones">
+                    <button onclick="resp12()" class="btn btn-success btn-lg">RUN</button>
+                    <button class="btn btn-primary btn-lg" style="display: none;" id="help12">Do it for me</button>
+                </div>
+                <p id="explanation12" style="display: none;">Perfect! Here you are comparing to Strings using and if-else condition. In the next excersise you need to compare two numbers. Remember to convert the user's answer into a number using the int() function.</strong> </p>
+            </div>
+            <div class="col-md-5 offset-md-1">
+                <h1>Output</h1>
+                <p id="error12" class="lead" style="display: none;">Oh Oh! It looks like there is something wrong</p>
+                <img id="ans12" src="img/12.PNG" class="img-fluid rounded" style="display: none;">
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid jumbotron">
+        <div class="row">
+            <div class="col-md-6">
+                <p class="lead">13. Create an if-else condition. <br>Using the input() function ask the question "How old are you?" and store the answer inside a variable called <strong>age</strong><br>Compare the variable with the number 18 and if its greather or equal use the print() function to write the message "You can access to the movie". If its different write the message "you can not access to the movie"<br><i>Imagine the user's answer will be: 15</i></p>
+                <textarea id="respuesta13" spellcheck="false" class="form-control if"></textarea>
+                <div class="row botones">
+                    <button onclick="resp13()" class="btn btn-success btn-lg">RUN</button>
+                    <button class="btn btn-primary btn-lg" style="display: none;" id="help13">Do it for me</button>
+                </div>
+                <p id="explanation13" style="display: none;">Amazing! You are prepared to create your own programms. Hope you the best!<br><strong>Teacher Juan Sebastián Beltrán</strong> </p>
+            </div>
+            <div class="col-md-5 offset-md-1">
+                <h1>Output</h1>
+                <p id="error13" class="lead" style="display: none;">Oh Oh! It looks like there is something wrong</p>
+                <img id="ans13" src="img/13.PNG" class="img-fluid rounded" style="display: none;">
+            </div>
+        </div>
+    </div>
 
 
     <script src="src/index.js"></script>
