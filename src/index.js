@@ -29,10 +29,10 @@ function resp1(){
 let count2 = 0
 
 let answer2 = [
-    `print("Hello world" + "I'm a programmer")`, 
-    `print("Hello world"+"I'm a programmer")`,
-    `print("hello world" + "I'm a programmer")`,
-    `print("hello world"+"I'm a programmer")`
+    `print("Hello world," + "I'm a programmer")`, 
+    `print("Hello world,"+"I'm a programmer")`,
+    `print("hello world," + "I'm a programmer")`,
+    `print("hello world,"+"I'm a programmer")`
 ]
 
 function resp2(){
